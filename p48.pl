@@ -8,3 +8,5 @@ intersp([X|Xs], Y, [X, Y|Ys]) :- intersp(Xs, Y, Ys).
 
 tableL(Vars, Goal) :- bindList(Vars), toString(Goal, Res), intersp(Vars, ' ', Lst), writeLst(Lst), writeLst([' => ', Res]), nl, fail.
 tableL(_, _).
+
+vars(term):
