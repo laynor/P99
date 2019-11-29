@@ -1,0 +1,1 @@
+% comparison - no time function in ciao.

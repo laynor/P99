@@ -1,0 +1,1 @@
+decodeRle(Rle, Orig).

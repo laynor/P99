@@ -1,4 +1,5 @@
 :- ensure_loaded(p46).
+
 % :- op(Pri, ty, sym).
 :- op(1114, xfx, impl).
 :- op(1113, yfx, nor).
